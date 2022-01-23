@@ -1,0 +1,63 @@
+/*body{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url('img/background3.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}*/
+.formlogin{
+  position: absolute;
+  width: 60%;
+  top: 17%;
+  left: 20%;
+  background-color: white;
+  border-radius: 30px;
+}
+.h1login{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+  font-family: 'Pacifico',cursive;
+}
+.formlogin form{
+  padding: 0 40px;
+}
+form .textfieldlogin{
+  position: relative;
+  margin: 30px 0;
+  border-bottom: 2px solid #adadad;
+}
+.textfieldlogin input{
+  width: 100%;
+  height: 40px;
+  padding: 0 5px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.password{
+  margin: -5px 0 20px 5px;
+  cursor: pointer;
+}
+.password:hover{
+  text-decoration: underline;
+}
+.buttonlogin{
+  width: 100%;
+  height: 100%;
+  border: 2px solid;
+  background: brown;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.buttonlogin a{
+  text-decoration: none;
+  color: black;
+}
+.signup{
+  margin: 30px 0;
+  text-align: center;
+}

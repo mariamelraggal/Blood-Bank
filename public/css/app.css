@@ -1,0 +1,127 @@
+
+.bg {
+    background-image: url('../storage/blood_img.jpg');
+    height: 39.1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    padding: 5% 5% 0;
+    width: 100%;
+}
+
+h3 {
+    margin-top: 10%;
+    color: white;
+    min-width: 13%;
+    max-width: 13%;
+}
+
+.search {
+    margin-top: 5%;
+    padding: 4% 4% 3%;
+    background-color: hsl(0deg 0% 0% / 55%);
+    width: fit-content;
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cityChange,
+.bloodChange {
+    min-width: 90%;
+    max-width: 90%;
+    opacity: 100%;
+    color: black;
+    font-weight: bolder;
+
+}
+
+.bloodGroup,
+.cities {
+    margin: 20% 4%;
+}
+
+.findBlood {
+    bottom: 3rem;
+    right: 4rem;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    border-width: 0.15rem;
+    border-color: white;
+    margin: 150% 25% 25%;
+
+}
+
+#DataTables_Table_0_wrapper {
+    margin-top: 100px;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.dataTables_info {
+
+    font-weight: 500;
+}
+
+.pagination button {
+    color: #000;
+}
+
+div.dataTables_paginate {
+    text-align: center;
+}
+
+.page-link {
+    color: #020202;
+    background-color: #fff;
+    ;
+}
+
+select {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+h6{
+    color: white;
+    font-weight: lighter;
+}
+.page-item.active .page-link {
+    color: #060606;
+    background-color: #ececec;
+    border-color: #ffffff;
+}
+
+.dropdown-menu {
+    max-height: 146px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 0px;
+}
+div.dataTables_wrapper
+div.dataTables_length label {
+    font-weight:bolder ;
+    font-size: large;
+}
+td{
+    font-weight: 500;
+    font-size: large;
+}
+.btn{
+    font-weight: 500;
+}

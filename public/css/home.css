@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/***Header Nav Bar****/
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.5),rgba(4, 9, 30, 0.5)),url('img/homeBlood.jfif');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  z-index: 1;
+  margin-top:0;
+  top: 0px;
+}
+.navbar-brand{
+    padding: 0;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 3px 6px;
+  position: relative;
+}
+.nav-links ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight:bold;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0%;
+  height: 1px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+#logo{
+    width: 25%;
+}
+.bHeader{
+  background-color: hsl(0deg 0% 0% / 75%);
+  padding: 0;
+}
+/***text in header***/
+.text-box{
+  margin-top: 2.5%;
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box h1{
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 20px;
+}
+.home-btn{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 18px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.home-btn:hover{
+  border: 1px solid white;
+  background: red;
+  transition: 1s;
+}
+a:hover{
+    color: white;
+}
+nav .fa{
+  display: none;
+}
+/****About******/
+.about{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('img/background2.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.about-txt{
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+  color: white;
+}
+.about-txt h1{
+  font-family: cursive;
+  font-size: 55px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 900;
+  margin-bottom:5rem;
+
+}
+.about-txt p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+/******contact footer*****/
+
+#contactID {
+    position: relative;
+    background-color: #ce332b;
+    padding: 2% 2% 0;
+    text-align: left;
+
+}
+
+.white-logo {
+    filter: brightness(0) invert(1);
+    width: 50%;
+    margin-bottom: 3rem;
+}
+
+.footer-p {
+    font-family: "open sans";
+    font-weight: 400;
+    margin-bottom: 3rem;
+    color: white;
+    margin-left: 2.7rem
+}
+
+.image-style {
+
+    margin-right: 20px;
+    float: left;
+}
+
+.copy-right {
+    font-size: 0.8rem;
+    font-family: "open sans";
+    font-weight: 400;
+    color: white;
+}
+
+.info-m {
+    margin-top: 10rem;
+
+}
+
+#contactID li {
+    margin-bottom: 2.5rem;
+    list-style: none;
+
+}
+
+#contactID i {
+    color: white;
+    margin-right: 1rem;
+    margin-bottom: 10rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+#contactID i:hover {
+    color: hsl(0, 77%, 41%);
+}
+
+@media only screen and (max-width: 770px) {
+    #contactID i {
+        margin-bottom: 2rem;
+    }
+    #contactID  ul {
+        margin-top: -5rem;
+        margin-left: -2.2rem;
+    }
+.info-m {
+    margin-top: 5.5rem;
+    margin-left: 5rem;
+}
+.icons{
+    text-align: center;
+    margin-left: 0;
+}
+h3{
+    text-align: center;
+    min-width: 100%;
+    max-width: 100%;
+}
+.bloodGroup,
+.cities {
+    margin: 5%;
+}
+
+.findBlood {
+    bottom: 3rem;
+    right: 4rem;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    border-width: 0.15rem;
+    border-color: white;
+    margin: 5% auto;
+
+}
+
+
+}
+
+
+
+
+/*.contact{
+  background: gray;
+}
+.contact h1{
+  margin: 5px;
+  padding: 5px;
+}
+.contact p{
+  margin: 8px;
+  padding: 8px;
+}
+@media(max-width:700px) {
+  .text-box h1{
+    font-size: 20px;
+  }
+  .nav-links ul li{
+    display: block;
+  }
+  .nav-links{
+    top: 0;
+    right: -200px;
+    text-align: left;
+    position: absolute;
+    background: darkred;
+    height: 100vh;
+    width: 200px;
+    z-index: 2;
+    transition: 1s;
+  }
+  .nav-links ul{
+    padding: 30px;
+  }
+  nav img{
+    width: 80%;
+  }
+  .bHeader{
+    background: none;
+  }
+  nav .fa{
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+*/
